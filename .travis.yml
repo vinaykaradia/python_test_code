@@ -9,8 +9,7 @@ python:
   - "pypy"
 # command to install dependencies
 install:
-  - "pip install ."
-  - "pip install -r requirements.txt"
+  - "pip install --upgrade pip"
 # command to run tests
 script: nosetests
 notifications:
