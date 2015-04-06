@@ -8,8 +8,8 @@ python:
   - "nightly"
   - "pypy"
 # command to install dependencies
-install:
-  - "pip install --upgrade pip"
+#install:
+#  - "pip install --upgrade pip"
 # command to run tests
 script: nosetests
 notifications:
